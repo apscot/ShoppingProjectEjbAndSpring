@@ -1,6 +1,8 @@
 # Shopping Cart Project for Ericsson
 
-Find the batch file named run.bat which will directly build all three application and create their individual containers. It will also create a common network and register all three in the same network so that inter service communication is achieved. 
+Find the batch file named ``` run.bat ``` which will directly build all three application and create their individual containers. 
+
+It will also create a common network and register all three in the same network so that inter service communication is achieved. 
 
 **PreRequisite: Java 11, Docker should be installed in your system.**
 
