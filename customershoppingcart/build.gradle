@@ -31,6 +31,11 @@ dependencies {
     api libs.com.fasterxml.jackson.core.jackson.databind
     testImplementation libs.junit.junit
     implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+	// https://mvnrepository.com/artifact/org.mockito/mockito-all
+testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.8.4'
+
+
+    
     
 }
 
