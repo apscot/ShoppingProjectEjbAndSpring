@@ -51,3 +51,16 @@ docker network connect myNetwork productproject
 docker network connect myNetwork shoppingproject
 docker network connect myNetwork customershoppingcart
 ```
+
+# Please find screenshots below.
+## Products API
+![image](https://github.com/apscot/ShoppingProjectEjbAndSpring/assets/756039/dfceff7b-9e27-4f30-8274-f7ec8016d895)
+## GetShoppingCarts API
+![image](https://github.com/apscot/ShoppingProjectEjbAndSpring/assets/756039/2c7c8642-5359-49e6-9d10-24b5a961505f)
+## CustomerShoppingCart API
+![image](https://github.com/apscot/ShoppingProjectEjbAndSpring/assets/756039/ebcf4509-6c4a-4fd4-a284-5dcb44d1d989)
+## Caching put, get delete and scheduler logs
+![image](https://github.com/apscot/ShoppingProjectEjbAndSpring/assets/756039/208933e8-02c4-4d4c-a4fc-b0690bfdc03f)
+
+
+
