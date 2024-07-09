@@ -10,11 +10,12 @@ Few things I would like to mention here: I have done few assumtions based on the
 
 ```
 1. All get API had a input payload but as per Rest API guidlines we should not use Post/Put for getting/fetching anything from an API. So as GetMapping doesnt allow input payload to be passed, I kept the input details as path params.
-2. I used H2 database for inmemory db for Product and ShoppingCart application.
-3. I have created my own LRU cache implementation which evicts within 30 secounds of inactivity.
-4. Unfortunately time was very short, So I have missed the test case for the customershoppingcart application.
-5. My EJB knowledge was not quite up to the mark so did bare minimum for EJB implementation.
-6. Didnt put any Exception handling as it was not mentioned the description, given few Sysouts, wherever needed.
+2. As it was mentioned only Spring, I have taken the liberty of using Spring boot, as it helps my development faster for this short period of time.
+3. I used H2 database for inmemory db for Product and ShoppingCart application.
+4. I have created my own LRU cache implementation which evicts within 30 secounds of inactivity.
+5. Unfortunately time was very short, So I have missed the test case for the customershoppingcart application.
+6. My EJB knowledge was not quite up to the mark so did bare minimum for EJB implementation.
+7. Didnt put any Exception handling as it was not mentioned the description, given few Sysouts, wherever needed.
 ```
 
 Thanks a lot for this beautiful project, I really enjoyed working on it. please try to ignore if any silly mistakes found. Got a very short time to complete, did this in 1.5 days. I am proud of what I achieved in this short time. Hope you will consider my job application. 
